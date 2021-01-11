@@ -42,4 +42,32 @@ h2 {
     text-transform: uppercase;
 }
 
+/* MENU */
+.navbar {
+    background-color: #0a0a0a;
+    font-size: 15px;
+    border-bottom: 1px solid #fff;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: bold;
+
+
+}
+
+.nav-pills .nav-link {
+    color: #0a0a0a;
+    text-align: center;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .nav-link:hover {
+    color: #0a0a0a !important;
+    background-color: #fff !important;
+
+}
+
+.navbar-toggler {
+    color: #fff !important;
+    border-style: none;
+}
 
