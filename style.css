@@ -9,8 +9,8 @@ body {
 }
 
 h3,
-h4,
-h5
+h4
+
 {
     /*font-weight: bold;*/
     text-transform: uppercase;
@@ -323,6 +323,6 @@ footer .fas:hover {
 }
 
 footer h5 {
-    color: #fff;
+    color: #0a0a0a;
     font-weight: normal;
 }
