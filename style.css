@@ -305,3 +305,24 @@ time>.month {
 .panel-primary a {
     color: #393e61
 }
+
+/* FOOTER */
+footer {
+    padding: 20px 0 40px;
+}
+
+footer .fas {
+    font-size: 25px;
+    margin: 20px;
+    color: #4c2cd8;
+    height: 30px;
+}
+
+footer .fas:hover {
+    font-size: 27px;
+}
+
+footer h5 {
+    color: #fff;
+    font-weight: normal;
+}
