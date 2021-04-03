@@ -326,3 +326,9 @@ footer h5 {
     color: #0a0a0a;
     font-weight: normal;
 }
+@media screen and (max-width : 370px) {
+    body {
+     flex-direction: column;
+  
+  }
+  }
