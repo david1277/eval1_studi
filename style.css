@@ -6,16 +6,17 @@
 body {
     background-color: rgb(0, 140, 255);
     max-width: 1920px;
+    overflow-x: hidden;
+    margin-right: 0px;
 }
 
 h3,
-h4
-
-{
+h4 {
     /*font-weight: bold;*/
     text-transform: uppercase;
     font-family: 'Lato', sans-serif
 }
+
 ul,
 ol {
     list-style: none;
@@ -44,12 +45,14 @@ h2 {
 
 /* MENU */
 .navbar {
+    display: flex;
+    justify-content: space-around;
     background-color: #0a0a0a;
     font-size: 15px;
-    border-bottom: 1px solid #fff;
     letter-spacing: 4px;
     text-transform: uppercase;
     font-weight: bold;
+
 
 
 }
@@ -306,6 +309,10 @@ time>.month {
     color: #393e61
 }
 
+
+
+
+
 /* FOOTER */
 footer {
     padding: 20px 0 40px;
@@ -326,9 +333,38 @@ footer h5 {
     color: #0a0a0a;
     font-weight: normal;
 }
+
+/*responsive*/
 @media screen and (max-width : 370px) {
-    body {
-     flex-direction: column;
-  
-  }
-  }
+    .container {
+        flex-direction: column;
+
+    }
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 575px;
+        padding-right: 15;
+        flex-direction: column;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 767px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 990px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1199px;
+    }
+}
