@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -101,7 +102,7 @@
 
     </section>
 
-    
+
     <section id="event">
         <h2>Evenements a Venir</h2>
         <div class="container">
@@ -206,6 +207,45 @@
     </section>
 
 
+    <section id="meteo">
+       
+
+
+        <div class="row justify-content-center">
+
+            <div class="col-md-8">
+                <!-- Titre -->
+                <h1 class="text-center mt-5">Météo</h1>
+               
+                <!-- Ville / Temperature -->
+                <div class="text-center">
+                    <span id="ville">paris</span>
+
+                    <div id="temperature">
+                        <span id="temperature_label">
+                            xx.x
+                        </span> °C
+                    </div>
+                </div>
+            
+
+        
+
+        <div class="row justify-content-center">
+            <div class="col-md-8 text-center">
+                <!-- Changer de ville -->
+                <div id="changer"
+                    class="mt-2 text-center p-3 text-white font-weight-bold text-uppercase d-inline-block">
+                    Changer de ville
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+    </section>
+
     <section id="contact">
         <section class="page-section" id="Contact">
             <div class="container">
@@ -259,20 +299,24 @@
                     </div>
                 </div>
             </div>
-        
+
+        </section>
+
+        <footer class="text-center">
+            <a href="#about">
+                <span class="fas fa-chevron-up"></span>
+            </a>
+            <h5>©Association Escale Catamaran 2021</h5>
+
+        </footer>
+        <!-- Contact form JavaScript -->
+        <script src="jqBootstrapValidation.js"></script>
+        <script src="contact_me.js"></script>
+        <script src="meteo.js"></script>
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@0.4.0/dist/lottie-player.js"></script>
+
+
     </section>
+</body>
 
-    <footer class="text-center">
-        <a href="#about">
-            <span class="fas fa-chevron-up"></span>
-        </a>
-        <h5>©Association Escale Catamaran 2021</h5>
-
-    </footer>
-    <!-- Contact form JavaScript -->
-   <script src="jqBootstrapValidation.js"></script>
-   <script src="contact_me.js"></script>
-
-    </section>
-  </body>
 </html>
